@@ -30,4 +30,4 @@ Singleton Collection object (wrapper for actual collection) was created for stor
 - Unit tests.
 
 ### Contributors
-Tester (QA): shaurmur_
+QA: shaurmur_
