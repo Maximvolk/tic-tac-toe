@@ -8,6 +8,15 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+
+using TicTacToe.Core.Infrastructure;
+using TicTacToe.Core.Interfaces.Repositories;
+using TicTacToe.Core.Interfaces.Services;
+using TicTacToe.Core.Interfaces;
+using TicTacToe.Core.Services;
+using TicTacToe.Persistence.Repositories;
+using TicTacToe.Persistence;
 
 namespace TicTacToe.Web
 {
@@ -23,7 +32,18 @@ namespace TicTacToe.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<TicTacToeContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddControllersWithViews();
+
+             services.Configure<GameOptions>(
+                options => Configuration.GetSection("Game").Bind(options));
+
+            services.AddSingleton<IGamesCollection, GamesCollection>();
+            services.AddScoped<IGameRepository, GameRepository>();
+            services.AddScoped<IGameService, GameService>();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +62,7 @@ namespace TicTacToe.Web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthorization();
@@ -49,6 +70,7 @@ namespace TicTacToe.Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });

@@ -1,0 +1,14 @@
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Persistence.deps.json
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Persistence.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Persistence.pdb
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Core.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Core.pdb
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.csprojAssemblyReference.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.AssemblyInfoInputs.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.AssemblyInfo.cs
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.csproj.CoreCompileInputs.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.csproj.CopyComplete
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/obj/Debug/netstandard2.1/TicTacToe.Persistence.pdb
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Common.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Persistence/bin/Debug/netstandard2.1/TicTacToe.Common.pdb

@@ -1,0 +1,9 @@
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/bin/Debug/netstandard2.1/TicTacToe.Common.deps.json
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/bin/Debug/netstandard2.1/TicTacToe.Common.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/bin/Debug/netstandard2.1/TicTacToe.Common.pdb
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.csprojAssemblyReference.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.AssemblyInfoInputs.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.AssemblyInfo.cs
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.csproj.CoreCompileInputs.cache
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.dll
+/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/Debug/netstandard2.1/TicTacToe.Common.pdb

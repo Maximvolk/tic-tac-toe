@@ -4,14 +4,14 @@
     "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj": {}
   },
   "projects": {
-    "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj": {
+    "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/TicTacToe.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj",
-        "projectName": "TicTacToe.Core",
-        "projectPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj",
+        "projectUniqueName": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/TicTacToe.Common.csproj",
+        "projectName": "TicTacToe.Common",
+        "projectPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/TicTacToe.Common.csproj",
         "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/obj/",
+        "outputPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,6 +38,73 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj",
+        "projectName": "TicTacToe.Core",
+        "projectPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/TicTacToe.Core.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/TicTacToe.Common.csproj": {
+                "projectPath": "/Users/max/Prog/dotnet/tic-tac-toe/TicTacToe.Common/TicTacToe.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

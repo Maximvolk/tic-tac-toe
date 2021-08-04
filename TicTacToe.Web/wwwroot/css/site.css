@@ -69,11 +69,11 @@ td:before {
 }
 td.cross:before {
   content: "x";
-  color: lightblue;
+  color: blue;
 }
 td.circle:before {
   content: "o";
-  color: pink;
+  color: red;
 }
 
 /* Sticky footer styles
